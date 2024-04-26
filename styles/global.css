@@ -27,6 +27,25 @@ body{
   background-color: var(--background-color);
 }
 
+a {
+  text-decoration: none;/*Tira a cor do link azul padrão do navegador*/
+  color: inherit;/*deixa a cor padrão do body*/
+}
+
+a:hover{
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+.container{/*vou utilizar para dar uma margem nos elementos que utilizar esta classe */
+  padding-inline: 32px; /**/
+  max-width: 1280px;
+  margin-inline: auto; /*para deixar automatico a distancia das 2 laterais*/
+}
+
+.bg-surface-color{
+  background-color: var(--surface-color);
+}
 /* Amante de viagens, cultura e gastronomia. 🌍✈️ Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta a partir da movimentada cidade de São Paulo. 🏙️📸 */
 
 
