@@ -1,0 +1,44 @@
+header{
+  padding-block: 32px;
+  font: var(--text-md)
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;/*Vai jogar profile e o info em cada lado da header*/
+  align-items: center;
+}
+
+#profile{
+  display: flex;
+  /*align-items: center;*/
+  gap: 32px;
+}
+
+#profile > div{ /*Pegar no profile a primeira div*/
+  max-width: 384px;
+}
+
+#profile h1{
+  font: var(--text-lg) ;
+  color: var(--text-color-primary) ;
+  margin-bottom: 8px;
+}
+
+#profile p{
+  /*font: var(--text-md)*/
+}
+
+#info{
+  list-style: none; /*Tira os bullets da Lista ordenada*/
+  display: flex; /*Aqui a ista vai ficar uma do lado da outra pois ela ja é uma embaixo da outra*/
+  flex-direction: column;/*então aqui mudo para ficar uma embaixo da outra para poder usar o gap*/
+  gap: 16px; 
+  width: 280px;
+}
+
+#info li{/*em cada item da minha lista será flex e vou conseguir ajustar os espaços*/
+  display: flex;
+  align-items: center;
+  gap:8px;
+}
