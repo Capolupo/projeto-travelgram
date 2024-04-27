@@ -25,10 +25,6 @@ header .container{
   margin-bottom: 8px;
 }
 
-#profile p{
-  /*font: var(--text-md)*/
-}
-
 #info{
   list-style: none; /*Tira os bullets da Lista ordenada*/
   display: flex; /*Aqui a ista vai ficar uma do lado da outra pois ela ja é uma embaixo da outra*/
