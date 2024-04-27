@@ -1,0 +1,10 @@
+footer{
+  display: flex;
+  gap:24px;
+  padding-block:24px ;
+}
+
+footer span:nth-child(1){ /*No footer a partir do primeiro filho que é o span joga para direita*/
+  margin-right: auto;
+
+}
